@@ -30,7 +30,7 @@ Blocks_BLK FLOAT,
 Rebounds_TRB FLOAT,
 Turnovers_TOV FLOAT,
 Effective_Field_Goal_Perc FLOAT,
-True_Shooting__Perc FLOAT
+True_Shooting_Perc FLOAT
 );
 
 CREATE TABLE team(
@@ -38,12 +38,16 @@ Team TEXT,
 Conference TEXT,
 ELO_Rating FLOAT,
 Value_Millions FLOAT,
-ELO_Index FLOAT
+ELO_Index FLOAT,
+Games INT,
+Total_Attendance FLOAT,
+Average_Attendance FLOAT
+
 );
 
 CREATE TABLE social_media(
 Player_Name	TEXT,
-Page_Views float,
+Wiki_Page_Views float,
 Twitter_Favorite_Count FLOAT,
 Twitter_Retweet_Count FLOAT
 );
