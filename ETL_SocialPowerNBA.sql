@@ -11,7 +11,7 @@ CREATE TABLE salary(
 Player_Name TEXT,
 Position TEXT,
 Team TEXT,
-Salary TEXT
+Salary FLOAT
 );
 
 CREATE TABLE stats(
